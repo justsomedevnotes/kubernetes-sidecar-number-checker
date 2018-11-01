@@ -1,5 +1,5 @@
 # Introduction
-This post demostrates the sidecar container.  A sidecar container is generally used to monitor something on the primary application and perform some task on that information eleviating the primary of that responsibility.  I have a little fun with the examples here.  The primary application writes a random number to a file which the sidecar container reads and displays one of two messages based on the content of the file.
+This post demostrates the sidecar container.  A sidecar container is generally used to monitor something on the primary application and perform some task on that information alleviating the primary of that responsibility.  I have a little fun with the examples here.  The primary application writes a random number to a file which the sidecar container reads and displays one of two messages based on the content of the file.
 
 ## The Primary Container
 This is just a simple container that writes a random number to a file.  The file is in a mounted volume that will be shared between containers.  
